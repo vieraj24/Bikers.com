@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* header */
+
+header{
+    width: 100%;
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img{
+    width: 45%;
+}
+
+header .fa-bars{
+    color: white;
+    font-size: 2rem;
+}
+
+header ul{
+    display: none;
+}
+
+header ul li{
+    
+    display: inline-block;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: all 0.2s;
+    
+}
+
+header ul li a:hover{
+    color: orange;
+}
+
+/* banner */
+
+.banner{
+    text-align: center;
+    padding: 5rem;
+    background: rgba(0, 0, 0, 0.5) url(../Images/bannerimg.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+}
+
+.banner #heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: orange;
+    margin-bottom: 0.5rem;
+    
+}
+
+.banner h2{
+    font-size: 2.5rem;
+    color: white;
+    margin-bottom:  0.5rem; ;
+}
+
+.banner p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.banner button{
+    padding: 0.5rem;
+    background-color: orange;
+    font-weight: bold;
+    color: white;
+    border-color: transparent;
+}
+
+/* call */
+
+.call{
+    text-align: center;
+    padding: 3rem;
+    background-color: orange;
+    width: 100%;
+}
+
+.call a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+}
+
+.call p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    margin-top: 1rem;
+}
+
+.call button{
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    margin-top: 1rem;
+
+}
+
+/* aim */
+
+.aim{
+    padding: 1rem;
+}
+
+.aim img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.aim h2{
+    margin-bottom: 1rem;
+}
+
+.aim p{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.aim button{
+    padding: 0.7rem;
+    width: 7rem;
+    background-color: black;
+    color: white;
+}
+
+/* moto */
+
+.moto{
+    padding: 5rem 1rem;
+    background: rgba(0, 0, 0, 0.5) url(../Images/moto-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
+    width: 100%;
+}
+
+.moto h2{
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: orange;
+}
+
+.moto p{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.moto button{
+    padding: 0.7rem;
+    width: 7rem;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+/* gallery */
+
+.gallery{
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #dfe6e9;
+}
+
+.gallery h2{
+    margin-bottom: 1rem;
+}
+
+.gallery img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+/* merchandise */
+
+.merchandise{
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.cart{
+    width: 100%;
+}
+
+.cart div{
+    width: 100%;
+    /* border: 1px solid; */
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.cart div img{
+    width: 75%;
+}
+
+/* .merchandise .cart div{
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+} */
+
+.cart div button{
+    padding: 0.5rem;
+    width: 7rem;
+    background-color: black;
+    color: white;
+    margin-top: 0.5rem;
+}
+
+
+/* newsletter */
+
+.newsletter{
+    padding: 2rem 1rem;
+    background-color: black;
+    color: white;
+}
+
+.cross{
+    margin-bottom: 2.5rem;
+    width: 100%;
+}
+
+.newsletter .cross img{
+    width: 45%;
+    margin-bottom: 0.5rem;
+}
+
+.newsletter .cross p{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.newsletter .cross .fa-facebook, .fa-twitter, .fa-instagram, .fa-snapchat-ghost{
+    font-size: 1.5rem;
+    margin-right: 0.5em;
+}
+
+
+.recent{
+    margin-bottom: 2.5rem;
+    width: 100%;
+}
+
+.newsletter .recent h2{
+    margin-bottom: 0.5rem;
+}
+
+.newsletter .fa-newspaper{
+    font-size: 1.5rem;
+}
+
+.newsletter b{
+    font-size: 1.4rem;
+}
+
+.news{
+    margin-bottom: 2.5rem;
+    width: 100%;
+}
+
+.newsletter .news h2{
+    margin-bottom: 0.5rem;
+}
+
+.newsletter .news p{
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.newsletter .news input{
+    padding: 0.5rem;
+}
+
+.newsletter .news input[type=submit]{
+    background-color: orange;
+    color: white;
+    border-color: transparent;
+}
+
+.insta{
+    margin-bottom: 2.5rem;
+    width: 100%;
+}
+
+.newsletter .insta h2{
+    margin-bottom: 0.5rem;
+}
+
+.newsletter .insta img{
+    width: 50%;
+}
+
+/* footer */
+
+.footer{
+    padding: 2rem 1rem;
+    background-color: black;
+    border-top: 2px solid white;
+}
+
+.footer p{
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.footer .fa-arrow-up{
+    font-size: 2.5rem;
+    color: white;
+    border: 1px solid white;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0.5rem;
+    right: 0.5rem;
+    background-color: black;
+}
+
+@media only screen and (min-width:768px){
+
+    header .fa-bars{
+        display: none;
+    }
+
+    header ul{
+        display: block;
+    }
+
+    header ul li a{
+        /* text-decoration: none;
+        color: white; */
+        margin-left: 1rem;
+        font-size: 1rem;
+        font-weight: bolder;
+        
+    }
+
+    header img{
+        width: 22%;
+    }
+
+
+    .aim img{
+        width: 40%;
+    }
+
+    .aim{
+        display: flex;
+    }
+
+    .aim div{
+        padding: 0.5rem;
+        margin-top: 3rem;
+    }
+
+    .aim h2{
+        font-size: 2.5rem;
+    }
+
+    .aim p{
+        font-size: 1.25rem;
+    }
+
+    .moto{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+
+    .gallery img{
+        width: 40%;
+        margin: 0 0.5rem 1rem 0.5rem;
+        height: 30%;
+    }
+
+    .merchandise .cart div{
+        width: 44%;
+        padding: 0.5rem;
+        display: inline-block;
+    }
+
+    .newsletter .cross img{
+        width: 60%;
+    }
+
+
+    .newsletter .cross, .news, .recent, .insta{
+        width: 40%;
+        margin-left: 3.5rem;
+        display: inline-block;
+    }
+
+
+    .newsletter .insta img{
+        width: 75%;
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+}
+
+@media only screen and (min-width:992px){
+    header{
+        padding: 1.5rem;
+    }
+
+    header ul li a{
+        font-size: 1.1rem ;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    header img{
+        width: 15%;
+        margin-left: 3rem;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    .banner{
+        height: 80vh;
+    }
+
+    .banner #heading{
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: orange;
+        margin-bottom: 0.5rem;
+        margin-top: 10rem;
+        
+    }
+
+    .banner h2{
+        font-size: 3.5rem;
+        color: white;
+        margin-bottom:  0.5rem; ;
+    }
+
+    .banner p{
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 0.5rem;
+    }
+
+    .aim div{
+        padding: 1rem;
+        margin-top: 15%;
+    } 
+
+    .aim h2{
+        font-size: 3rem;
+    }
+
+    .aim p{
+        font-size: 2rem;
+    }
+
+    .gallery img{
+        width: 31%;
+        margin: 0 0.5rem 1rem 0.5rem;
+        height: 30%;
+    }
+
+    .merchandise .cart div{
+        width: 22%;
+        padding: 0.5rem;
+        display: inline-block;
+    }
+
+    .newsletter .cross, .news, .recent, .insta{
+        width: 20%;
+        padding: 0.5rem;
+        display: inline-block;
+    }
+
+}
